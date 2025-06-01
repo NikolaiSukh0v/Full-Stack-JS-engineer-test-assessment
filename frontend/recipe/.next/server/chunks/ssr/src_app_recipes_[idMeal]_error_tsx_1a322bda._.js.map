@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/nikolai/Desktop/git/frontend/recipe/src/app/recipes/%5BidMeal%5D/error.tsx"],"sourcesContent":["// app/recipes/[idMeal]/error.tsx\n'use client';\n\nimport React, { useEffect } from 'react';\n\nexport default function RecipeDetailError({ error }: { error: Error }) {\n  useEffect(() => {\n    console.error('[RecipeDetailError]', error);\n  }, [error]);\n\n  return (\n    <div\n      style={{\n        padding: '2rem',\n        textAlign: 'center',\n        fontFamily: 'system-ui, sans-serif',\n      }}\n    >\n      <h1 style={{ color: '#c00' }}>Oops—something went wrong.</h1>\n      <p>{error.message}</p>\n      <p>Please try again or go back to the <a href=\"/recipes\" style={{ color: '#0066cc' }}>list of recipes</a>.</p>\n    </div>\n  );\n}\n"],"names":[],"mappings":"AAAA,iCAAiC;;;;;AAGjC;AAFA;;;AAIe,SAAS,kBAAkB,EAAE,KAAK,EAAoB;IACnE,CAAA,GAAA,qMAAA,CAAA,YAAS,AAAD,EAAE;QACR,QAAQ,KAAK,CAAC,uBAAuB;IACvC,GAAG;QAAC;KAAM;IAEV,qBACE,8OAAC;QACC,OAAO;YACL,SAAS;YACT,WAAW;YACX,YAAY;QACd;;0BAEA,8OAAC;gBAAG,OAAO;oBAAE,OAAO;gBAAO;0BAAG;;;;;;0BAC9B,8OAAC;0BAAG,MAAM,OAAO;;;;;;0BACjB,8OAAC;;oBAAE;kCAAmC,8OAAC;wBAAE,MAAK;wBAAW,OAAO;4BAAE,OAAO;wBAAU;kCAAG;;;;;;oBAAmB;;;;;;;;;;;;;AAG/G","debugId":null}}]
+}

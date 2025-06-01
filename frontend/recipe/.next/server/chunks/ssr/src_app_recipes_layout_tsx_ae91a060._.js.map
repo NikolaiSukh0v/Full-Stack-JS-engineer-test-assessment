@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/nikolai/Desktop/git/frontend/recipe/src/app/recipes/layout.tsx"],"sourcesContent":["import Recipe from \"../components/Recipe\"\nexport const metadata = {\n  title: 'All Recipes',\n};\nexport default function Layout(){\n   return(\n    <div>\n{/* <Recipe/> */}\n    </div>\n  \n    \n   )\n}"],"names":[],"mappings":";;;;;;AACO,MAAM,WAAW;IACtB,OAAO;AACT;AACe,SAAS;IACrB,qBACC,8OAAC;;;;;AAML","debugId":null}}]
+}
